@@ -1,0 +1,273 @@
+// This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
+
+body {
+font-family: 'Lato', sans-serif;
+color: $grey;
+
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Lato', sans-serif;
+	color: $primary;
+	font-weight: 300;
+
+}
+h2 {
+	margin-bottom: 1rem;
+}
+
+
+/** Page Elements **/
+
+img.wp-post-image {
+	margin-bottom: 3rem;
+}
+
+// navbar
+
+.navbar {
+	padding: 2.5rem 1rem;
+}
+
+.navbar-brand {
+	font-weight: 300;
+	text-transform: uppercase;
+
+
+}
+.navbar .img-fluid {
+	height: 8rem !important;
+
+}
+
+.navbar .navbar-collapse {
+	justify-content: flex-end;
+}
+
+.navbar-nav a {
+	text-transform: uppercase;
+	font-size: .90rem;
+}
+
+.navbar-nav a:hover {
+	transition: color .5s ease;
+	color: $contrast;
+
+}
+
+.navbar-toggler {
+	border-color: $primary;
+	border-width: .1rem;
+	margin: 1rem auto;
+	color: $primary !important;
+
+
+}
+
+.clear {
+	clear:both;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#18a79d' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-collapse {
+    text-align: center;
+    padding-bottom: 2rem;
+    padding-top: 2.5rem;
+}
+
+.logoBox {
+	display: flex;
+	flex-direction: column;
+	align-items: center
+}
+
+
+/**Front Page Hero**/
+
+.hero-container {
+	position: relative;
+}
+
+.imageContainer {
+    background-size: cover;
+    height: 20vh;
+    background-repeat: no-repeat;
+    border-bottom: solid 3rem $gm_green;
+}
+
+@media (min-width: 768px) {
+	.imageContainer {
+    height: 30vh;
+}
+	}
+
+@media (min-width: 992px) {
+
+.imageContainer {
+    height: 46vh;
+    max-height: 440px;
+
+}
+
+}
+
+/** Promise **/
+
+.promise {
+	margin-bottom: 4rem;
+}
+
+.website-title {
+	color: $primary;
+	text-align: center;
+}
+
+.what-we-do {
+	color: $primary;
+	font-weight: 300;
+	text-align: center;
+	margin-top: .5rem;
+}
+
+.description {
+	text-align: center;
+}
+
+/** Category Boxes **/
+
+.our-collection {
+
+	 h5,h2 {
+		 text-align: center;
+	 }
+
+	 h2 {
+		 margin-bottom: 2rem;
+	 }
+
+	h5 {
+		font-weight: 700;
+		background-color: #eeeeee;
+		padding: 1rem 0;
+		font-size: 1rem;
+	}
+
+}
+
+/** Page **/
+
+.entry-title {
+	text-align: center;
+	margin-bottom: 4rem;
+	margin-top: 3rem;
+
+}
+
+/** Post **/
+
+.nav-previous a {
+	padding: .5rem;
+	background-color: $primary;
+	color: white;
+}
+
+.nav-next a {
+	padding: .5rem;
+	background-color: $primary;
+	color: white;
+}
+
+.post-navigation {
+
+	margin-bottom: 4rem;
+
+}
+
+.nav-links {
+	padding-top: 4rem;
+}
+
+/** Footer **/
+
+#wrapper-footer  {
+	background-color: $gm_green;
+}
+
+.site-info {
+	display: flex;
+
+}
+
+.site-info li a {
+	color: white;
+
+}
+
+.site-info li {
+	list-style: none;
+}
+
+
+.site-info p {
+	color: #ffffff;
+	margin: 0;
+}
+
+#menu-footer {
+	padding-left: .3rem;
+}
+
+.call-2-action {
+	width: 95%;
+	margin: 0 auto;
+	background-color: #eeeeee;
+	text-align: center;
+	line-height: 3rem;
+}
+
+span.line {
+  display: inline-block;
+}
+
+/** Advance Portfolio Plugin **/
+
+figure.effect-layla {
+    background: #3684bf !important;
+}
+
+.wpb-fp-filter {
+    margin: 0 0 60px 0 !important; /* I removed the important that was attached to the CSS file of the plugin, remember to change it again if the plugin updates */
+    padding: 0;
+}
+
+/** Related Posts**/
+
+.yuzo_related_post h3 {
+	text-align: center;
+	padding-bottom: 4rem;
+}
+
+.yuzo__text--title {
+	text-align: center;
+}
+
+/** Gallery **/
+
+.gallery-columns-4 .gallery-item {
+	max-width: 23%;
+}
+
+.gallery-item {
+	margin-right: 2%;
+	border: 1px solid $gm_green;
+	padding: .3rem;
+}
+
+/*+++++ Footer info & Menu****/
+
+.footer-info-wrapper {
+	background-color: $primary;
+}
